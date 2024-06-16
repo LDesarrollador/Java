@@ -1,0 +1,25 @@
+package clases;
+
+import java.io.IOException;
+import java.util.Scanner;
+
+public class calcularSueldoNuevo {
+	public static void main(String[] args)throws IOException {
+	//declaracion de variables
+		double sueldo;
+		double sueldoFinal;
+		String area;
+		Scanner scan = new Scanner(System.in);
+		
+		System.out.println("Indique sueldo actual: ");
+		sueldo=scan.nextDouble();
+		System.out.println("Indique su Area: ");
+		area=scan.nextLine();
+		
+		
+		
+	 
+		
+	}
+
+}
